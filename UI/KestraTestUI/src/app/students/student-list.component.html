@@ -1,0 +1,53 @@
+<div class='card'>
+    <div class='card-header'>
+      {{pageTitle}}
+    </div>
+    <div class='card-body'>
+      <div class="row">
+          <div class='col-md-2'>Filter by:</div>
+      </div>
+      <div class='row'>        
+        <div class='col-md-2'>Name:</div>
+        <div class='col-md-2'>
+          <input type='text' [(ngModel)] = 'studentNameFilter' />
+        </div>
+        <div class='col-md-2'>Grade grather than:</div>
+        <div class='col-md-2'>
+          <input type='text' [(ngModel)] = 'gradeGratherThan' />
+        </div>
+      </div>
+      <div class='row'>
+        <div class='col-md-2'>Subject:</div>
+        <div class='col-md-2'>
+          <input type='text' [(ngModel)] = 'subjectName'/>
+        </div>
+        <div class='col-md-1'>
+          <button class="btn btn-primary" (click)='getStudents()'>Search</button>
+        </div>
+      </div>
+      <div class='table-responsive'>
+        <table class='table'
+               *ngIf='students && students.length'>
+          <thead>
+            <tr>
+              <th>Student</th>
+              <th>Language & Arts</th>
+              <th>Science</th>
+              <th>Social Stidies</th>
+              <th>Maths</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor='let student of students'>
+              <td>{{ student.student }}</td>
+              <td>{{ student.languageArts }}</td>
+              <td>{{ student.science }}</td>
+              <td>{{ student.socialStudies }}</td>
+              <td>{{ student.maths }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  
+    </div>
+  

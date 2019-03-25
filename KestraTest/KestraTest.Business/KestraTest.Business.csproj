@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KestraTest.Contracts\KestraTest.Contracts.csproj" />
+    <ProjectReference Include="..\KestraTest.DataAccess\KestraTest.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KestraTest.DataAccess", "KestraTest.DataAccess\KestraTest.DataAccess.csproj", "{EB3B0AC6-14B1-4012-853C-E70833082BBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KestraTest.Business", "KestraTest.Business\KestraTest.Business.csproj", "{C7033723-0382-4A22-9C67-3ED270C007F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KestraTest.Api", "KestraTest.Api\KestraTest.Api.csproj", "{2946E919-7D35-4516-984C-A782134FF93E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KestraTest.Contracts", "KestraTest.Contracts\KestraTest.Contracts.csproj", "{FE2AC1FA-67AF-4F15-820F-353E704E5739}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB3B0AC6-14B1-4012-853C-E70833082BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB3B0AC6-14B1-4012-853C-E70833082BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB3B0AC6-14B1-4012-853C-E70833082BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB3B0AC6-14B1-4012-853C-E70833082BBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7033723-0382-4A22-9C67-3ED270C007F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7033723-0382-4A22-9C67-3ED270C007F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7033723-0382-4A22-9C67-3ED270C007F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7033723-0382-4A22-9C67-3ED270C007F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2946E919-7D35-4516-984C-A782134FF93E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2946E919-7D35-4516-984C-A782134FF93E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2946E919-7D35-4516-984C-A782134FF93E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2946E919-7D35-4516-984C-A782134FF93E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE2AC1FA-67AF-4F15-820F-353E704E5739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2AC1FA-67AF-4F15-820F-353E704E5739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE2AC1FA-67AF-4F15-820F-353E704E5739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE2AC1FA-67AF-4F15-820F-353E704E5739}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41BD74F9-2FD2-4E0D-8F72-78D2BAFD1AFD}
+	EndGlobalSection
+EndGlobal
